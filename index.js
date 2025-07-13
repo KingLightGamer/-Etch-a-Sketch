@@ -1,1 +1,4 @@
-const meinDiv = document.createElement("div");
+
+const container = document.getElementById('container');
+const gridSize = 16; 
+const totalSquares = gridSize * gridSize;
