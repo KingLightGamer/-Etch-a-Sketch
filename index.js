@@ -18,3 +18,18 @@ for (let i = 0; i < totalSquares; i++) {
   container.appendChild(square);
 }
 
+
+const openPopup = document.getElementById("openPopup");
+const closePopup = document.getElementById("closePopup");
+const popup = document.getElementById("popup");
+
+openPopup.addEventListener("click", () => {
+  popup.style.display = "flex";
+});
+
+closePopup.addEventListener("click", () => {
+  popup.style.display = "none";
+});
+
+
+;

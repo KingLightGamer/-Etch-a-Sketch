@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
- <div class="aboveMiddle"> <button>Ammount of Squares</button></div>
+ <div class="aboveMiddle"> <button id="openPopup">Ammount of Squares</button></div>
+  <div id="popup" >
+    <div class="popup-content">
+     <span id="closePopup" class="close">&times;</span>
+      <p>Enter the ammount of squares for the gridsize</p>
+      <input type="number">
+    </div>
+  </div>
      <div id="container"></div>
 
   <script src="index.js"></script>
